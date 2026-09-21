@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------
+# GE261004 Design Thinking — course material repository
+# Only course PDFs (syllabus, presentations, lecture notes) are tracked.
+# ---------------------------------------------------------------
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDouble
+.LSOverride
+.apdisk
+.TemporaryItems
+.VolumeIcon.icns
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# LibreOffice / OpenOffice lock and recovery files
+.~lock.*#
+*.odt#
+*.~vsd*
+
+# Microsoft Office temporary and owner files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+*.wbk
+*.xlk
+
+# LaTeX build artefacts (in case notes are ever typeset from source)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Backups, exports and working copies
+*.bak
+*.bak?
+*.orig
+*.old
+*~
+*_backup.*
+*-draft.*
+*copy.pdf
+*Copy.pdf
+
+# Archives and large media not meant for version control
+*.zip
+*.rar
+*.7z
+*.iso
+*.mp4
+*.mov
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+
+# Python (if any helper scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Environment and credentials
+.env
+.env.*
+*.key
+*.pem
