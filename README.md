@@ -25,11 +25,13 @@ creativity, collaboration and iterative design processes.
 .
 ├── 01 SYLLABUS/          1 PDF   — the approved course syllabus (2 pages)
 ├── 02 PRESENTATIONS/    30 PDFs  — six lecture decks per unit (≈486 slides)
-└── 03 LECTURE NOTES/     5 PDFs  — one set of detailed notes per unit (≈92 pages)
+├── 03 LECTURE NOTES/     5 PDFs  — one set of detailed notes per unit (≈92 pages)
+├── 04 TEXT BOOKS/        2 books — the two prescribed textbooks (PDF; Tim Brown also as EPUB)
+└── 05 REFERENCE BOOKS/   2 books — additional reference books on design thinking (PDF)
 ```
 
-Everything is distributed as PDF, so it opens on any device without special software. The
-presentations are 16:9 slide decks; the lecture notes are A4 reading material with worked examples,
+The course material is distributed as PDF, so it opens on any device without special software;
+Tim Brown's textbook is also provided as EPUB for e-readers. The presentations are 16:9 slide decks; the lecture notes are A4 reading material with worked examples,
 Indian and international case studies, and review questions at the end of every unit.
 
 ### Naming convention
@@ -38,6 +40,7 @@ Indian and international case studies, and review questions at the end of every 
 |---|---|---|
 | Presentations | `GE261004_Unit_<Unit>_<NN>_<Topic>.pdf` | `GE261004_Unit_II_02_Empathy_Mapping.pdf` |
 | Lecture notes | `GE261004 - Unit <Unit> - Lecture Notes.pdf` | `GE261004 - Unit III - Lecture Notes.pdf` |
+| Books | `<Title>_<AuthorName>.pdf` | `Change-by-Design_TimBrown.pdf` |
 
 The two-digit number in a presentation filename is its position in the unit, so sorting a folder by
 name gives the teaching order.
@@ -189,10 +192,25 @@ git clone https://github.com/<user>/rit.designthinking.git
 
 ## Textbooks
 
-1. Tim Brown, *Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation*, Harper Collins, 2012.
-2. Idris Mootee, *Design Thinking for Strategic Innovation: What They Can't Teach You at Business or Design School*, 1st Edition, John Wiley & Sons, 2013.
+The two textbooks prescribed in the syllabus, both available in [`04 TEXT BOOKS/`](04%20TEXT%20BOOKS/):
 
-## References
+| # | Book | In this repository |
+|---|---|---|
+| 1 | Tim Brown, *Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation*, Harper Collins, 2012. | [PDF](04%20TEXT%20BOOKS/Change-by-Design_TimBrown.pdf) · [EPUB](04%20TEXT%20BOOKS/Change-by-Design_TimBrown.epub) — Revised and Updated edition, HarperCollins, 2019 (190 pages) |
+| 2 | Idris Mootee, *Design Thinking for Strategic Innovation: What They Can't Teach You at Business or Design School*, 1st Edition, John Wiley & Sons, 2013. | [PDF](04%20TEXT%20BOOKS/Design-Thinking-for-Strategic-Innovation_IdrisMootee.pdf) (226 pages) |
+
+## Reference books
+
+### Available in this repository
+
+Additional reading in [`05 REFERENCE BOOKS/`](05%20REFERENCE%20BOOKS/):
+
+| # | Book | In this repository |
+|---|---|---|
+| 1 | Eujin Pei & Kurt Becker (Eds.), *Design Thinking: Theory and Practice*, 1st Edition, CRC Press (Taylor & Francis), 2026. | [PDF](05%20REFERENCE%20BOOKS/Design-Thinking_EujinPei.pdf) (235 pages) |
+| 2 | Teun den Dekker, *Design Thinking*, International Edition, translated by Rudy Maarsman, Noordhoff, 2020. | [PDF](05%20REFERENCE%20BOOKS/Design-Thinking_TeundenDekker.pdf) (244 pages) |
+
+### Listed in the syllabus
 
 1. Jeanne Liedtka & Tim Ogilvie, *Designing for Growth: A Design Thinking Toolkit for Managers*, 1st Edition, Columbia Business School Publishing, 2011.
 2. Nigel Cross, *Engineering Design Methods: Strategies for Product Design*, 4th Edition, John Wiley & Sons, 2008.
@@ -212,4 +230,5 @@ Rajalakshmi Institute of Technology, Chennai, Tamil Nadu, India
 These materials are prepared for the students of GE261004 Design Thinking and are shared for
 academic and non-commercial use. Please credit the author when reusing or adapting any part of
 them. Third-party case studies, frameworks and trademarks referenced in the slides and notes remain
-the property of their respective owners.
+the property of their respective owners. The books in `04 TEXT BOOKS` and `05 REFERENCE BOOKS`
+remain the copyright of their authors and publishers and are not covered by the terms above.
